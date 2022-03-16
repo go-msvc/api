@@ -1,0 +1,12 @@
+github.com/go-msvc/errors v0.0.0 h1:Zczn5QXjNRKubwjOrVCLnKMun8mGvBLmrAKDbJNWQkc=
+github.com/go-msvc/errors v0.0.0/go.mod h1:5C49YNbi5juDL9ntxw/QbapNHLs4M9SpJ5ETp8AN7+M=
+github.com/go-msvc/logger v0.0.0-20210121062433-1f3922644bec h1:Xrt+itPOlP+NsaQseWM00Fk0juNtqJZqCRZX8g6JV+w=
+github.com/go-msvc/logger v0.0.0-20210121062433-1f3922644bec/go.mod h1:2wVoA8rQtGPatj+5uHahKFExXJqcRHpq4an2UHuYidc=
+github.com/go-sql-driver/mysql v1.6.0 h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE=
+github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
+github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/stewelarend/logger v0.0.4 h1:U+FhNJgbEA5YKUlSLhvk7UaPYjnuBQPkMbQvEKV9Fb8=
+github.com/stewelarend/logger v0.0.4/go.mod h1:9N9cjtsb9vHO+Noy17MDNMmH4fL1jBpGJ2HIxQyljvo=

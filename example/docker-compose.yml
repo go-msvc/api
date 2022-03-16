@@ -1,0 +1,26 @@
+version: "3.1"
+services:
+  mariadb:
+    image: mariadb:10.7
+    restart: unless-stopped
+    environment:
+        - TZ=${TIMEZONE}
+        - MYSQL_ROOT_PASSWORD=asdf@123456
+        - MYSQL_PASSWORD=admin
+        - MYSQL_USER=admin
+        - MYSQL_DATABASE=example
+    volumes:
+        - ./mariadb:/var/lib/mysql
+        - ./conf/mariadb/init.d:/docker-entrypoint-initdb.d
+    ports:
+        - "3306:3306"
+    networks:
+        - dbs
+
+  # api:
+  #   image: dbs-api:latest
+  #   ports:
+  #       - "12345:12345"
+
+networks:
+  dbs:
